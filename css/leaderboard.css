@@ -1,0 +1,31 @@
+@import url('http://fonts.cdnfonts.com/css/code-new-roman');
+
+*{
+    font-family: 'Code New Roman';
+}
+
+.heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3.5rem;
+    letter-spacing: -2px;
+    text-align: center;
+}
+
+.form_div{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+
+.table{
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 75%;
+}
+
+@media (max-width:768px){
+    .tbody_div{
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,61 @@
+@import url('http://fonts.cdnfonts.com/css/code-new-roman');
+
+*{
+    font-family: 'Code New Roman';
+}
+
+.h_head{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.button{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+
+
+.table_div{
+    /* display: none; */
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 75%;
+    margin-top: 1rem;
+   
+}
+
+.form_div{
+    margin-top: 2rem;
+    text-align: center;
+    display: none;
+}
+
+.order_button{
+    margin-top: 1rem;
+    text-align: center;
+    display: none;
+}
+
+.order_table{
+    display: block;
+}
+
+.order_dsc{
+    display: none;
+}
+
+.graph_div{
+    margin-top: 1rem;
+    text-align: center;
+    display: none;
+}
+
+
+
+@media (max-width:768px) {
+    .table_div{
+        width: 95%;
+    }
+}
